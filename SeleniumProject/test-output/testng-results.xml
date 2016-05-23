@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="55093" started-at="2016-05-23T05:09:11Z" finished-at="2016-05-23T05:10:06Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="55093" started-at="2016-05-23T05:09:11Z" finished-at="2016-05-23T05:10:06Z">
+      <class name="Test.TestNG">
+        <test-method status="PASS" signature="myBrowser()[pri:0, instance:Test.TestNG@68be2bc2]" name="myBrowser" is-config="true" duration-ms="20746" started-at="2016-05-23T12:08:50Z" finished-at="2016-05-23T12:09:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myBrowser -->
+        <test-method status="PASS" signature="openTab()[pri:0, instance:Test.TestNG@68be2bc2]" name="openTab" is-config="true" duration-ms="0" started-at="2016-05-23T12:09:11Z" finished-at="2016-05-23T12:09:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openTab -->
+        <test-method status="PASS" signature="navigateTo()[pri:0, instance:Test.TestNG@68be2bc2]" name="navigateTo" is-config="true" duration-ms="2" started-at="2016-05-23T12:09:11Z" finished-at="2016-05-23T12:09:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateTo -->
+        <test-method status="PASS" signature="tabTwo()[pri:0, instance:Test.TestNG@68be2bc2]" name="tabTwo" duration-ms="55037" started-at="2016-05-23T12:09:11Z" finished-at="2016-05-23T12:10:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tabTwo -->
+        <test-method status="PASS" signature="navigateBack()[pri:0, instance:Test.TestNG@68be2bc2]" name="navigateBack" is-config="true" duration-ms="6" started-at="2016-05-23T12:10:06Z" finished-at="2016-05-23T12:10:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateBack -->
+        <test-method status="PASS" signature="closeTab()[pri:0, instance:Test.TestNG@68be2bc2]" name="closeTab" is-config="true" duration-ms="1" started-at="2016-05-23T12:10:06Z" finished-at="2016-05-23T12:10:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTab -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Test.TestNG@68be2bc2]" name="closeBrowser" is-config="true" duration-ms="9634" started-at="2016-05-23T12:10:06Z" finished-at="2016-05-23T12:10:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Test.TestNG -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
