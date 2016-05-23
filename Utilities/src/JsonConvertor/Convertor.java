@@ -1,9 +1,7 @@
 package JsonConvertor;
 
-import org.json.JSONArray;
-import org.json.JSONObject;
-
 import com.google.gson.JsonArray;
+import com.google.gson.JsonObject;
 
 import java.awt.image.DataBufferUShort;
 import java.sql.Connection;
@@ -25,11 +23,11 @@ public class Convertor {
 	 * @return a JSONArray
 	 * @throws Exception
 	 */
-	public static JSONArray convertResultSetIntoJSON(ResultSet resultSet) throws Exception {
-		JSONArray jsonArray = new JSONArray();
+	public static JsonArray convertResultSetIntoJSON(ResultSet resultSet) throws Exception {
+		JsonArray jsonArray = new JsonArray();
 		while (resultSet.next()) {
 			int total_rows = resultSet.getMetaData().getColumnCount();
-			JSONObject obj = new JSONObject();
+			JsonObject obj = new JsonObject();
 			for (int i = 0; i < total_rows; i++) {
 				String columnName = resultSet.getMetaData().getColumnLabel(i + 1).toLowerCase();
 				Object columnValue = resultSet.getObject(i + 1);
