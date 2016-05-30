@@ -6,14 +6,7 @@
       <class name="Test.TestNG">
         <methods>
           <include name="myBrowser"/>
-          <include name="beforemethod"/>
-          <include name="aftermethod1"/>
-          <include name="closeWindow"/>
-          <include name="openWindow"/>
-          <include name="beforemethod1"/>
-          <include name="navigateTo"/>
-          <include name="aftermethod"/>
-          <include name="closeBrowser"/>
+          <include name="tabOne"/>
         </methods>
       </class> <!-- Test.TestNG -->
     </classes>

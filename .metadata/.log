@@ -12,3 +12,1291 @@ user global configuration and to define the default location to store repositori
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2016-05-25 11:26:02.167 -----------------------------------------------
+eclipse.buildId=4.5.0.I20150603-2000
+java.version=1.7.0_71
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -data C:\Users\pisal\Documents\GitHub\HomeProgramming -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2016-05-25 11:26:04.436
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.core.resources 4 567 2016-05-25 11:26:04.648
+!MESSAGE Workspace restored, but some problems occurred.
+!SUBENTRY 1 org.eclipse.core.resources 4 567 2016-05-25 11:26:04.648
+!MESSAGE Could not read metadata for '.org.eclipse.jdt.core.external.folders'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: The project description file (.project) for '.org.eclipse.jdt.core.external.folders' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:888)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:902)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:882)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:733)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1588)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2386)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:2157)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:463)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:771)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:764)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:721)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:941)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:318)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:571)
+	at org.eclipse.osgi.container.Module.start(Module.java:439)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:454)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:531)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:324)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:327)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:36)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:398)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:352)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:344)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:160)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:140)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1488)
+!SUBENTRY 2 org.eclipse.core.resources 4 567 2016-05-25 11:26:04.666
+!MESSAGE The project description file (.project) for '.org.eclipse.jdt.core.external.folders' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-05-25 11:26:42.407
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\pisal'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2016-05-25 11:38:16.845 -----------------------------------------------
+eclipse.buildId=4.5.0.I20150603-2000
+java.version=1.7.0_71
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -data file:/C:/Users/pisal/Documents/GitHub/HomeProgramming/ -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-05-25 11:38:54.840
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\pisal'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.testng.eclipse 1 0 2016-05-25 11:41:04.895
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:[Working copy] TestNG.java [in Test [in src [in SeleniumProject]]]
+  package Test
+  import java.io.BufferedWriter
+  import java.io.File
+  import java.io.FileOutputStream
+  import java.io.IOException
+  import java.io.OutputStreamWriter
+  import java.io.Writer
+  import org.apache.commons.io.FileUtils
+  import org.jsoup.Jsoup
+  import org.jsoup.nodes.Document
+  import org.jsoup.select.Elements
+  import org.openqa.selenium.OutputType
+  import org.openqa.selenium.TakesScreenshot
+  import org.openqa.selenium.WebDriver
+  import org.openqa.selenium.chrome.ChromeDriver
+  import org.openqa.selenium.firefox.FirefoxDriver
+  import org.openqa.selenium.firefox.FirefoxProfile
+  import org.openqa.selenium.firefox.internal.ProfilesIni
+  import org.openqa.selenium.ie.InternetExplorerDriver
+  import org.openqa.selenium.support.CacheLookup
+  import org.testng.annotations.AfterClass
+  import org.testng.annotations.AfterMethod
+  import org.testng.annotations.AfterSuite
+  import org.testng.annotations.BeforeClass
+  import org.testng.annotations.BeforeMethod
+  import org.testng.annotations.BeforeSuite
+  import org.testng.annotations.Test
+  class TestNG
+    WebDriver web
+    void myBrowser()
+    void openTab()
+    void navigateTo()
+    void navigateBack()
+    void tabTwo()
+    void closeTab()
+    void closeBrowser()
+
+!ENTRY org.testng.eclipse 1 0 2016-05-25 11:41:05.842
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Program Files\eclipse\plugins\org.testng.eclipse_6.9.11.201604020423\lib\testng-remote.jar C:\Users\pisal\Documents\GitHub\HomeProgramming\SeleniumProject\bin C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\apache-mime4j-0.6.jar C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\commons-io-2.4.jar C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\htmlunit.jar C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\httpclient-4.5.1.jar C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\httpcore-4.4.3.jar C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\httpmime-4.5.jar C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\jsoup-1.8.3.jar C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\selenium-java-2.53.0.jar C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\selenium-java-2.53.0-srcs.jar C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\testng-6.9.9.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 24678 -protocol json -d C:\Users\pisal\Documents\GitHub\HomeProgramming\SeleniumProject\test-output C:\Users\pisal\AppData\Local\Temp\testng-eclipse--3378143\testng-customsuite.xml
+java -ea -classpath C:\Program Files\eclipse\plugins\org.testng.eclipse_6.9.11.201604020423\lib\testng-remote.jar:C:\Users\pisal\Documents\GitHub\HomeProgramming\SeleniumProject\bin:C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\apache-mime4j-0.6.jar:C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\commons-io-2.4.jar:C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\htmlunit.jar:C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\httpclient-4.5.1.jar:C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\httpcore-4.4.3.jar:C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\httpmime-4.5.jar:C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\jsoup-1.8.3.jar:C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\selenium-java-2.53.0.jar:C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\selenium-java-2.53.0-srcs.jar:C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\testng-6.9.9.jar org.testng.remote.RemoteTestNG -serport 24678 -protocol json -d C:\Users\pisal\Documents\GitHub\HomeProgramming\SeleniumProject\test-output C:\Users\pisal\AppData\Local\Temp\testng-eclipse--3378143\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2016-05-25 11:41:07.820
+!MESSAGE Stop the socket server as it's still pending on accepting the client
+
+!ENTRY org.testng.eclipse 1 0 2016-05-25 11:41:40.805
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:[Working copy] TestNG.java [in Test [in src [in SeleniumProject]]]
+  package Test
+  import java.io.BufferedWriter
+  import java.io.File
+  import java.io.FileOutputStream
+  import java.io.IOException
+  import java.io.OutputStreamWriter
+  import java.io.Writer
+  import org.apache.commons.io.FileUtils
+  import org.jsoup.Jsoup
+  import org.jsoup.nodes.Document
+  import org.jsoup.select.Elements
+  import org.openqa.selenium.OutputType
+  import org.openqa.selenium.TakesScreenshot
+  import org.openqa.selenium.WebDriver
+  import org.openqa.selenium.chrome.ChromeDriver
+  import org.openqa.selenium.firefox.FirefoxDriver
+  import org.openqa.selenium.firefox.FirefoxProfile
+  import org.openqa.selenium.firefox.internal.ProfilesIni
+  import org.openqa.selenium.ie.InternetExplorerDriver
+  import org.openqa.selenium.support.CacheLookup
+  import org.testng.annotations.AfterClass
+  import org.testng.annotations.AfterMethod
+  import org.testng.annotations.AfterSuite
+  import org.testng.annotations.BeforeClass
+  import org.testng.annotations.BeforeMethod
+  import org.testng.annotations.BeforeSuite
+  import org.testng.annotations.Test
+  class TestNG
+    WebDriver web
+    void myBrowser()
+    void openTab()
+    void navigateTo()
+    void navigateBack()
+    void tabTwo()
+    void closeTab()
+    void closeBrowser()
+
+!ENTRY org.testng.eclipse 1 0 2016-05-25 11:41:40.897
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Program Files\eclipse\plugins\org.testng.eclipse_6.9.11.201604020423\lib\testng-remote.jar C:\Users\pisal\Documents\GitHub\HomeProgramming\SeleniumProject\bin C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\apache-mime4j-0.6.jar C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\commons-io-2.4.jar C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\htmlunit.jar C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\httpclient-4.5.1.jar C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\httpcore-4.4.3.jar C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\httpmime-4.5.jar C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\jsoup-1.8.3.jar C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\selenium-java-2.53.0.jar C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\selenium-java-2.53.0-srcs.jar C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\testng-6.9.9.jar C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\jcommander-1.48.jar C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\jna-4.1.0.jar C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\jna-platform-4.1.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 24682 -protocol json -d C:\Users\pisal\Documents\GitHub\HomeProgramming\SeleniumProject\test-output C:\Users\pisal\AppData\Local\Temp\testng-eclipse-1148221288\testng-customsuite.xml
+java -ea -classpath C:\Program Files\eclipse\plugins\org.testng.eclipse_6.9.11.201604020423\lib\testng-remote.jar:C:\Users\pisal\Documents\GitHub\HomeProgramming\SeleniumProject\bin:C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\apache-mime4j-0.6.jar:C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\commons-io-2.4.jar:C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\htmlunit.jar:C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\httpclient-4.5.1.jar:C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\httpcore-4.4.3.jar:C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\httpmime-4.5.jar:C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\jsoup-1.8.3.jar:C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\selenium-java-2.53.0.jar:C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\selenium-java-2.53.0-srcs.jar:C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\testng-6.9.9.jar:C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\jcommander-1.48.jar:C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\jna-4.1.0.jar:C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\jna-platform-4.1.0.jar org.testng.remote.RemoteTestNG -serport 24682 -protocol json -d C:\Users\pisal\Documents\GitHub\HomeProgramming\SeleniumProject\test-output C:\Users\pisal\AppData\Local\Temp\testng-eclipse-1148221288\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2016-05-25 11:42:41.691
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Program Files\eclipse\plugins\org.testng.eclipse_6.9.11.201604020423\lib\testng-remote.jar C:\Users\pisal\Documents\GitHub\HomeProgramming\SeleniumProject\bin C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\apache-mime4j-0.6.jar C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\commons-io-2.4.jar C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\htmlunit.jar C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\httpclient-4.5.1.jar C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\httpcore-4.4.3.jar C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\httpmime-4.5.jar C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\jsoup-1.8.3.jar C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\selenium-java-2.53.0.jar C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\selenium-java-2.53.0-srcs.jar C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\testng-6.9.9.jar C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\jcommander-1.48.jar C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\jna-4.1.0.jar C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\jna-platform-4.1.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 24704 -protocol json -d C:\Users\pisal\Documents\GitHub\HomeProgramming\SeleniumProject\test-output C:\Users\pisal\AppData\Local\Temp\testng-eclipse--675629705\testng-customsuite.xml
+java -ea -classpath C:\Program Files\eclipse\plugins\org.testng.eclipse_6.9.11.201604020423\lib\testng-remote.jar:C:\Users\pisal\Documents\GitHub\HomeProgramming\SeleniumProject\bin:C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\apache-mime4j-0.6.jar:C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\commons-io-2.4.jar:C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\htmlunit.jar:C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\httpclient-4.5.1.jar:C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\httpcore-4.4.3.jar:C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\httpmime-4.5.jar:C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\jsoup-1.8.3.jar:C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\selenium-java-2.53.0.jar:C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\selenium-java-2.53.0-srcs.jar:C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\testng-6.9.9.jar:C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\jcommander-1.48.jar:C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\jna-4.1.0.jar:C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\jna-platform-4.1.0.jar org.testng.remote.RemoteTestNG -serport 24704 -protocol json -d C:\Users\pisal\Documents\GitHub\HomeProgramming\SeleniumProject\test-output C:\Users\pisal\AppData\Local\Temp\testng-eclipse--675629705\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2016-05-25 11:52:42.874
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Program Files\eclipse\plugins\org.testng.eclipse_6.9.11.201604020423\lib\testng-remote.jar C:\Users\pisal\Documents\GitHub\HomeProgramming\JsoupTechnology\bin C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\apache-mime4j-0.6.jar C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\bsh-2.0b4.jar C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\cglib-nodep-2.1_3.jar C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\commons-codec-1.10.jar C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\commons-collections-3.2.1.jar C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\commons-dbcp-1.2.2.jar C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\commons-exec-1.3.jar C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\commons-fileupload-1.3.1.jar C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\commons-io-2.4.jar C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\commons-logging-1.2.jar C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\commons-pool-1.4.jar C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\gson-2.2.4.jar C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\gson-2.3.1.jar C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\guava-19.0.jar C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\hamcrest-core-1.3.jar C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\hamcrest-library-1.3.jar C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\htmlunit.jar C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\httpclient-4.5.1.jar C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\httpcore-4.4.3.jar C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\httpmime-4.5.jar C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\jcommander-1.48.jar C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\jna-4.1.0.jar C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\jna-platform-4.1.0.jar C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\jsoup-1.8.3.jar C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\jsp-api.jar C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\jstl-1.2.jar C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\junit-4.12.jar C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\mysql-connector-java-5.1.11-bin.jar C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\mysql-connector-java-5.1.25-bin.jar C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\netty-3.5.7.Final.jar C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\ojdbc6.jar C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\phantomjsdriver-1.2.1.jar C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\postgresql-9.3-1102.jdbc4.jar C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\selenium-java-2.53.0.jar C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\selenium-java-2.53.0-srcs.jar C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\servlet-api.jar C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\testng-6.9.9.jar C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\wifihostpot.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 26743 -protocol json -d C:\Users\pisal\Documents\GitHub\HomeProgramming\JsoupTechnology\test-output C:\Users\pisal\AppData\Local\Temp\testng-eclipse-993472844\testng-customsuite.xml
+java -ea -classpath C:\Program Files\eclipse\plugins\org.testng.eclipse_6.9.11.201604020423\lib\testng-remote.jar:C:\Users\pisal\Documents\GitHub\HomeProgramming\JsoupTechnology\bin:C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\apache-mime4j-0.6.jar:C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\bsh-2.0b4.jar:C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\cglib-nodep-2.1_3.jar:C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\commons-codec-1.10.jar:C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\commons-collections-3.2.1.jar:C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\commons-dbcp-1.2.2.jar:C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\commons-exec-1.3.jar:C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\commons-fileupload-1.3.1.jar:C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\commons-io-2.4.jar:C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\commons-logging-1.2.jar:C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\commons-pool-1.4.jar:C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\gson-2.2.4.jar:C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\gson-2.3.1.jar:C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\guava-19.0.jar:C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\hamcrest-core-1.3.jar:C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\hamcrest-library-1.3.jar:C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\htmlunit.jar:C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\httpclient-4.5.1.jar:C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\httpcore-4.4.3.jar:C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\httpmime-4.5.jar:C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\jcommander-1.48.jar:C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\jna-4.1.0.jar:C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\jna-platform-4.1.0.jar:C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\jsoup-1.8.3.jar:C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\jsp-api.jar:C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\jstl-1.2.jar:C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\junit-4.12.jar:C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\mysql-connector-java-5.1.11-bin.jar:C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\mysql-connector-java-5.1.25-bin.jar:C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\netty-3.5.7.Final.jar:C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\ojdbc6.jar:C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\phantomjsdriver-1.2.1.jar:C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\postgresql-9.3-1102.jdbc4.jar:C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\selenium-java-2.53.0.jar:C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\selenium-java-2.53.0-srcs.jar:C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\servlet-api.jar:C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\testng-6.9.9.jar:C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib:C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\wifihostpot.jar org.testng.remote.RemoteTestNG -serport 26743 -protocol json -d C:\Users\pisal\Documents\GitHub\HomeProgramming\JsoupTechnology\test-output C:\Users\pisal\AppData\Local\Temp\testng-eclipse-993472844\testng-customsuite.xml
+!SESSION 2016-05-25 14:56:47.695 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.7.0_71
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.core.runtime 4 0 2016-05-25 14:57:54.707
+!MESSAGE Invalid input url:platform:/plugin/org.testng.eclipse/icons/full/main16/testng_blur.gif
+!STACK 0
+java.io.IOException: Unable to resolve plug-in "platform:/plugin/org.testng.eclipse/icons/full/main16/testng_blur.gif".
+	at org.eclipse.core.internal.runtime.PlatformURLPluginConnection.parse(PlatformURLPluginConnection.java:65)
+	at org.eclipse.core.internal.runtime.FindSupport.find(FindSupport.java:290)
+	at org.eclipse.core.runtime.FileLocator.find(FileLocator.java:152)
+	at org.eclipse.jface.resource.URLImageDescriptor.getFilePath(URLImageDescriptor.java:215)
+	at org.eclipse.jface.resource.URLImageDescriptor.createImage(URLImageDescriptor.java:283)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:224)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:202)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.getImageFromURI(SWTPartRenderer.java:225)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.getImage(SWTPartRenderer.java:236)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.createTab(StackRenderer.java:877)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.processContents(LazyStackRenderer.java:139)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:654)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:746)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:717)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:711)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:695)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:71)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:151)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:654)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:746)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:717)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:711)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:695)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:71)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:151)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:654)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:746)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:717)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:711)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:695)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:71)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveRenderer.processContents(PerspectiveRenderer.java:49)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:654)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:746)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:717)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:711)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:695)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveStackRenderer.showTab(PerspectiveStackRenderer.java:82)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.postProcess(LazyStackRenderer.java:103)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveStackRenderer.postProcess(PerspectiveStackRenderer.java:63)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:658)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:746)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:717)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:711)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:695)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:71)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:151)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:654)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:746)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:717)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:711)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:695)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:71)
+	at org.eclipse.e4.ui.workbench.renderers.swt.WBWRenderer.processContents(WBWRenderer.java:614)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:654)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:746)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:717)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:711)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:695)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1061)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1018)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:694)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:606)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:139)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
+
+!ENTRY org.eclipse.jface 4 0 2016-05-25 14:57:54.739
+!MESSAGE Unable to resolve plug-in "platform:/plugin/org.testng.eclipse/icons/full/main16/testng_blur.gif".
+!STACK 0
+java.io.IOException: Unable to resolve plug-in "platform:/plugin/org.testng.eclipse/icons/full/main16/testng_blur.gif".
+	at org.eclipse.core.internal.runtime.PlatformURLPluginConnection.parse(PlatformURLPluginConnection.java:65)
+	at org.eclipse.core.internal.runtime.PlatformURLPluginConnection.resolve(PlatformURLPluginConnection.java:77)
+	at org.eclipse.core.internal.boot.PlatformURLHandler.openConnection(PlatformURLHandler.java:69)
+	at org.eclipse.osgi.internal.url.URLStreamHandlerProxy.openConnection(URLStreamHandlerProxy.java:114)
+	at java.net.URL.openConnection(URL.java:971)
+	at org.eclipse.core.internal.runtime.PlatformURLConverter.toFileURL(PlatformURLConverter.java:34)
+	at org.eclipse.core.runtime.FileLocator.toFileURL(FileLocator.java:207)
+	at org.eclipse.jface.resource.URLImageDescriptor.getFilePath(URLImageDescriptor.java:219)
+	at org.eclipse.jface.resource.URLImageDescriptor.createImage(URLImageDescriptor.java:283)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:224)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:202)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.getImageFromURI(SWTPartRenderer.java:225)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.getImage(SWTPartRenderer.java:236)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.createTab(StackRenderer.java:877)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.processContents(LazyStackRenderer.java:139)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:654)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:746)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:717)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:711)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:695)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:71)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:151)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:654)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:746)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:717)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:711)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:695)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:71)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:151)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:654)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:746)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:717)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:711)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:695)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:71)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveRenderer.processContents(PerspectiveRenderer.java:49)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:654)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:746)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:717)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:711)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:695)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveStackRenderer.showTab(PerspectiveStackRenderer.java:82)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.postProcess(LazyStackRenderer.java:103)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveStackRenderer.postProcess(PerspectiveStackRenderer.java:63)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:658)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:746)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:717)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:711)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:695)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:71)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:151)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:654)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:746)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:717)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:711)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:695)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:71)
+	at org.eclipse.e4.ui.workbench.renderers.swt.WBWRenderer.processContents(WBWRenderer.java:614)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:654)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:746)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:717)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:711)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:695)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1061)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1018)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:694)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:606)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:139)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
+
+!ENTRY org.eclipse.core.runtime 4 0 2016-05-25 14:57:54.755
+!MESSAGE Invalid input url:platform:/plugin/org.testng.eclipse/icons/full/main16/testng_blur.gif
+!STACK 0
+java.io.IOException: Unable to resolve plug-in "platform:/plugin/org.testng.eclipse/icons/full/main16/testng_blur.gif".
+	at org.eclipse.core.internal.runtime.PlatformURLPluginConnection.parse(PlatformURLPluginConnection.java:65)
+	at org.eclipse.core.internal.runtime.FindSupport.find(FindSupport.java:290)
+	at org.eclipse.core.runtime.FileLocator.find(FileLocator.java:152)
+	at org.eclipse.jface.resource.URLImageDescriptor.getStream(URLImageDescriptor.java:140)
+	at org.eclipse.jface.resource.URLImageDescriptor.getImageData(URLImageDescriptor.java:105)
+	at org.eclipse.jface.resource.URLImageDescriptor.getImageData(URLImageDescriptor.java:100)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:270)
+	at org.eclipse.jface.resource.URLImageDescriptor.createImage(URLImageDescriptor.java:291)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:224)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:202)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.getImageFromURI(SWTPartRenderer.java:225)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.getImage(SWTPartRenderer.java:236)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.createTab(StackRenderer.java:877)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.processContents(LazyStackRenderer.java:139)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:654)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:746)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:717)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:711)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:695)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:71)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:151)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:654)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:746)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:717)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:711)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:695)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:71)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:151)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:654)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:746)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:717)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:711)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:695)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:71)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveRenderer.processContents(PerspectiveRenderer.java:49)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:654)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:746)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:717)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:711)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:695)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveStackRenderer.showTab(PerspectiveStackRenderer.java:82)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.postProcess(LazyStackRenderer.java:103)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveStackRenderer.postProcess(PerspectiveStackRenderer.java:63)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:658)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:746)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:717)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:711)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:695)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:71)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:151)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:654)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:746)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:717)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:711)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:695)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:71)
+	at org.eclipse.e4.ui.workbench.renderers.swt.WBWRenderer.processContents(WBWRenderer.java:614)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:654)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:746)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:717)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:711)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:695)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1061)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1018)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:694)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:606)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:139)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
+
+!ENTRY org.eclipse.core.runtime 4 0 2016-05-25 14:57:55.300
+!MESSAGE Invalid input url:platform:/plugin/org.testng.eclipse/icons/full/main16/testng_blur.gif
+!STACK 0
+java.io.IOException: Unable to resolve plug-in "platform:/plugin/org.testng.eclipse/icons/full/main16/testng_blur.gif".
+	at org.eclipse.core.internal.runtime.PlatformURLPluginConnection.parse(PlatformURLPluginConnection.java:65)
+	at org.eclipse.core.internal.runtime.FindSupport.find(FindSupport.java:290)
+	at org.eclipse.core.runtime.FileLocator.find(FileLocator.java:152)
+	at org.eclipse.jface.resource.URLImageDescriptor.getFilePath(URLImageDescriptor.java:215)
+	at org.eclipse.jface.resource.URLImageDescriptor.createImage(URLImageDescriptor.java:283)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:224)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:202)
+	at org.eclipse.e4.ui.workbench.addons.minmax.TrimStack.getImage(TrimStack.java:846)
+	at org.eclipse.e4.ui.workbench.addons.minmax.TrimStack.updateTrimStackItems(TrimStack.java:909)
+	at org.eclipse.e4.ui.workbench.addons.minmax.TrimStack.createWidget(TrimStack.java:641)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:56)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:898)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.inject(InjectorImpl.java:121)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalMake(InjectorImpl.java:345)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.make(InjectorImpl.java:278)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.make(ContextInjectionFactory.java:186)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.createFromBundle(ReflectionContributionFactory.java:107)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.doCreate(ReflectionContributionFactory.java:73)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.create(ReflectionContributionFactory.java:50)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ToolControlRenderer.createWidget(ToolControlRenderer.java:108)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:971)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:640)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:746)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:717)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:711)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:695)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:71)
+	at org.eclipse.e4.ui.workbench.renderers.swt.TrimBarRenderer.processContents(TrimBarRenderer.java:136)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:654)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$1.run(PartRenderingEngine.java:525)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:509)
+	at org.eclipse.e4.ui.workbench.renderers.swt.WBWRenderer.processContents(WBWRenderer.java:636)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:654)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:746)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:717)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:711)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:695)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1061)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1018)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:694)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:606)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:139)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
+
+!ENTRY org.eclipse.jface 4 0 2016-05-25 14:57:55.303
+!MESSAGE Unable to resolve plug-in "platform:/plugin/org.testng.eclipse/icons/full/main16/testng_blur.gif".
+!STACK 0
+java.io.IOException: Unable to resolve plug-in "platform:/plugin/org.testng.eclipse/icons/full/main16/testng_blur.gif".
+	at org.eclipse.core.internal.runtime.PlatformURLPluginConnection.parse(PlatformURLPluginConnection.java:65)
+	at org.eclipse.core.internal.runtime.PlatformURLPluginConnection.resolve(PlatformURLPluginConnection.java:77)
+	at org.eclipse.core.internal.boot.PlatformURLHandler.openConnection(PlatformURLHandler.java:69)
+	at org.eclipse.osgi.internal.url.URLStreamHandlerProxy.openConnection(URLStreamHandlerProxy.java:114)
+	at java.net.URL.openConnection(URL.java:971)
+	at org.eclipse.core.internal.runtime.PlatformURLConverter.toFileURL(PlatformURLConverter.java:34)
+	at org.eclipse.core.runtime.FileLocator.toFileURL(FileLocator.java:207)
+	at org.eclipse.jface.resource.URLImageDescriptor.getFilePath(URLImageDescriptor.java:219)
+	at org.eclipse.jface.resource.URLImageDescriptor.createImage(URLImageDescriptor.java:283)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:224)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:202)
+	at org.eclipse.e4.ui.workbench.addons.minmax.TrimStack.getImage(TrimStack.java:846)
+	at org.eclipse.e4.ui.workbench.addons.minmax.TrimStack.updateTrimStackItems(TrimStack.java:909)
+	at org.eclipse.e4.ui.workbench.addons.minmax.TrimStack.createWidget(TrimStack.java:641)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:56)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:898)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.inject(InjectorImpl.java:121)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalMake(InjectorImpl.java:345)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.make(InjectorImpl.java:278)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.make(ContextInjectionFactory.java:186)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.createFromBundle(ReflectionContributionFactory.java:107)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.doCreate(ReflectionContributionFactory.java:73)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.create(ReflectionContributionFactory.java:50)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ToolControlRenderer.createWidget(ToolControlRenderer.java:108)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:971)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:640)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:746)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:717)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:711)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:695)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:71)
+	at org.eclipse.e4.ui.workbench.renderers.swt.TrimBarRenderer.processContents(TrimBarRenderer.java:136)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:654)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$1.run(PartRenderingEngine.java:525)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:509)
+	at org.eclipse.e4.ui.workbench.renderers.swt.WBWRenderer.processContents(WBWRenderer.java:636)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:654)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:746)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:717)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:711)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:695)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1061)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1018)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:694)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:606)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:139)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
+
+!ENTRY org.eclipse.core.runtime 4 0 2016-05-25 14:57:55.307
+!MESSAGE Invalid input url:platform:/plugin/org.testng.eclipse/icons/full/main16/testng_blur.gif
+!STACK 0
+java.io.IOException: Unable to resolve plug-in "platform:/plugin/org.testng.eclipse/icons/full/main16/testng_blur.gif".
+	at org.eclipse.core.internal.runtime.PlatformURLPluginConnection.parse(PlatformURLPluginConnection.java:65)
+	at org.eclipse.core.internal.runtime.FindSupport.find(FindSupport.java:290)
+	at org.eclipse.core.runtime.FileLocator.find(FileLocator.java:152)
+	at org.eclipse.jface.resource.URLImageDescriptor.getStream(URLImageDescriptor.java:140)
+	at org.eclipse.jface.resource.URLImageDescriptor.getImageData(URLImageDescriptor.java:105)
+	at org.eclipse.jface.resource.URLImageDescriptor.getImageData(URLImageDescriptor.java:100)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:270)
+	at org.eclipse.jface.resource.URLImageDescriptor.createImage(URLImageDescriptor.java:291)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:224)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:202)
+	at org.eclipse.e4.ui.workbench.addons.minmax.TrimStack.getImage(TrimStack.java:846)
+	at org.eclipse.e4.ui.workbench.addons.minmax.TrimStack.updateTrimStackItems(TrimStack.java:909)
+	at org.eclipse.e4.ui.workbench.addons.minmax.TrimStack.createWidget(TrimStack.java:641)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:56)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:898)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.inject(InjectorImpl.java:121)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalMake(InjectorImpl.java:345)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.make(InjectorImpl.java:278)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.make(ContextInjectionFactory.java:186)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.createFromBundle(ReflectionContributionFactory.java:107)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.doCreate(ReflectionContributionFactory.java:73)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.create(ReflectionContributionFactory.java:50)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ToolControlRenderer.createWidget(ToolControlRenderer.java:108)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:971)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:640)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:746)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:717)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:711)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:695)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:71)
+	at org.eclipse.e4.ui.workbench.renderers.swt.TrimBarRenderer.processContents(TrimBarRenderer.java:136)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:654)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$1.run(PartRenderingEngine.java:525)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:509)
+	at org.eclipse.e4.ui.workbench.renderers.swt.WBWRenderer.processContents(WBWRenderer.java:636)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:654)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:746)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:717)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:711)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:695)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1061)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1018)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:694)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:606)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:139)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-05-25 14:58:00.211
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\pisal'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2016-05-25 16:01:04.583 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.7.0_71
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product -data file:/C:/Users/pisal/Documents/GitHub/HomeProgramming/ -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-05-25 16:01:47.574
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\pisal'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2016-05-26 08:57:04.338 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.7.0_71
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-05-26 08:57:53.033
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\pisal'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2016-05-26 11:47:13.368 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.7.0_71
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-05-26 11:48:06.546
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\pisal'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.testng.eclipse 1 0 2016-05-26 17:26:42.978
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\pisal\.p2\pool\plugins\org.testng.eclipse_6.9.11.201604020423\lib\testng-remote.jar C:\Users\pisal\Documents\GitHub\HomeProgramming\SeleniumProject\bin C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\apache-mime4j-0.6.jar C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\commons-io-2.4.jar C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\htmlunit.jar C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\httpclient-4.5.1.jar C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\httpcore-4.4.3.jar C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\httpmime-4.5.jar C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\jsoup-1.8.3.jar C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\selenium-java-2.53.0.jar C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\selenium-java-2.53.0-srcs.jar C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\testng-6.9.9.jar C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\jcommander-1.48.jar C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\jna-4.1.0.jar C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\jna-platform-4.1.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 16332 -protocol json -d C:\Users\pisal\Documents\GitHub\HomeProgramming\SeleniumProject\test-output C:\Users\pisal\AppData\Local\Temp\testng-eclipse-589795838\testng-customsuite.xml
+java -ea -classpath C:\Users\pisal\.p2\pool\plugins\org.testng.eclipse_6.9.11.201604020423\lib\testng-remote.jar:C:\Users\pisal\Documents\GitHub\HomeProgramming\SeleniumProject\bin:C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\apache-mime4j-0.6.jar:C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\commons-io-2.4.jar:C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\htmlunit.jar:C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\httpclient-4.5.1.jar:C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\httpcore-4.4.3.jar:C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\httpmime-4.5.jar:C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\jsoup-1.8.3.jar:C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\selenium-java-2.53.0.jar:C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\selenium-java-2.53.0-srcs.jar:C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\testng-6.9.9.jar:C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\jcommander-1.48.jar:C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\jna-4.1.0.jar:C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\jna-platform-4.1.0.jar org.testng.remote.RemoteTestNG -serport 16332 -protocol json -d C:\Users\pisal\Documents\GitHub\HomeProgramming\SeleniumProject\test-output C:\Users\pisal\AppData\Local\Temp\testng-eclipse-589795838\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2016-05-26 17:42:14.184
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\pisal\.p2\pool\plugins\org.testng.eclipse_6.9.11.201604020423\lib\testng-remote.jar C:\Users\pisal\Documents\GitHub\HomeProgramming\SeleniumProject\bin C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\apache-mime4j-0.6.jar C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\commons-io-2.4.jar C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\htmlunit.jar C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\httpclient-4.5.1.jar C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\httpcore-4.4.3.jar C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\httpmime-4.5.jar C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\jsoup-1.8.3.jar C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\selenium-java-2.53.0.jar C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\selenium-java-2.53.0-srcs.jar C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\testng-6.9.9.jar C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\jcommander-1.48.jar C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\jna-4.1.0.jar C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\jna-platform-4.1.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 16801 -protocol json -d C:\Users\pisal\Documents\GitHub\HomeProgramming\SeleniumProject\test-output C:\Users\pisal\AppData\Local\Temp\testng-eclipse--6276564\testng-customsuite.xml
+java -ea -classpath C:\Users\pisal\.p2\pool\plugins\org.testng.eclipse_6.9.11.201604020423\lib\testng-remote.jar:C:\Users\pisal\Documents\GitHub\HomeProgramming\SeleniumProject\bin:C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\apache-mime4j-0.6.jar:C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\commons-io-2.4.jar:C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\htmlunit.jar:C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\httpclient-4.5.1.jar:C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\httpcore-4.4.3.jar:C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\httpmime-4.5.jar:C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\jsoup-1.8.3.jar:C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\selenium-java-2.53.0.jar:C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\selenium-java-2.53.0-srcs.jar:C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\testng-6.9.9.jar:C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\jcommander-1.48.jar:C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\jna-4.1.0.jar:C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\jna-platform-4.1.0.jar org.testng.remote.RemoteTestNG -serport 16801 -protocol json -d C:\Users\pisal\Documents\GitHub\HomeProgramming\SeleniumProject\test-output C:\Users\pisal\AppData\Local\Temp\testng-eclipse--6276564\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2016-05-26 17:43:16.574
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:[Working copy] TestNG.java [in Test [in src [in SeleniumProject]]]
+  package Test
+  import java.io.BufferedWriter
+  import java.io.File
+  import java.io.FileOutputStream
+  import java.io.IOException
+  import java.io.OutputStreamWriter
+  import java.io.Writer
+  import org.apache.commons.io.FileUtils
+  import org.jsoup.Jsoup
+  import org.jsoup.nodes.Document
+  import org.jsoup.select.Elements
+  import org.openqa.selenium.OutputType
+  import org.openqa.selenium.TakesScreenshot
+  import org.openqa.selenium.WebDriver
+  import org.openqa.selenium.chrome.ChromeDriver
+  import org.openqa.selenium.firefox.FirefoxDriver
+  import org.openqa.selenium.firefox.FirefoxProfile
+  import org.openqa.selenium.firefox.internal.ProfilesIni
+  import org.openqa.selenium.ie.InternetExplorerDriver
+  import org.openqa.selenium.support.CacheLookup
+  import org.testng.annotations.AfterClass
+  import org.testng.annotations.AfterMethod
+  import org.testng.annotations.AfterSuite
+  import org.testng.annotations.BeforeClass
+  import org.testng.annotations.BeforeMethod
+  import org.testng.annotations.BeforeSuite
+  import org.testng.annotations.Test
+  class TestNG
+    WebDriver web
+    void myBrowser()
+    void openTab()
+    void navigateTo()
+    void navigateBack()
+    void tabOne()
+    void closeTab()
+    void closeBrowser()
+
+!ENTRY org.testng.eclipse 1 0 2016-05-26 17:43:16.655
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\pisal\.p2\pool\plugins\org.testng.eclipse_6.9.11.201604020423\lib\testng-remote.jar C:\Users\pisal\Documents\GitHub\HomeProgramming\SeleniumProject\bin C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\apache-mime4j-0.6.jar C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\commons-io-2.4.jar C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\htmlunit.jar C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\httpclient-4.5.1.jar C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\httpcore-4.4.3.jar C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\httpmime-4.5.jar C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\jsoup-1.8.3.jar C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\selenium-java-2.53.0.jar C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\selenium-java-2.53.0-srcs.jar C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\testng-6.9.9.jar C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\jcommander-1.48.jar C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\jna-4.1.0.jar C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\jna-platform-4.1.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 16865 -protocol json -d C:\Users\pisal\Documents\GitHub\HomeProgramming\SeleniumProject\test-output C:\Users\pisal\AppData\Local\Temp\testng-eclipse-1763491756\testng-customsuite.xml
+java -ea -classpath C:\Users\pisal\.p2\pool\plugins\org.testng.eclipse_6.9.11.201604020423\lib\testng-remote.jar:C:\Users\pisal\Documents\GitHub\HomeProgramming\SeleniumProject\bin:C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\apache-mime4j-0.6.jar:C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\commons-io-2.4.jar:C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\htmlunit.jar:C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\httpclient-4.5.1.jar:C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\httpcore-4.4.3.jar:C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\httpmime-4.5.jar:C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\jsoup-1.8.3.jar:C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\selenium-java-2.53.0.jar:C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\selenium-java-2.53.0-srcs.jar:C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\testng-6.9.9.jar:C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\jcommander-1.48.jar:C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\jna-4.1.0.jar:C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\jna-platform-4.1.0.jar org.testng.remote.RemoteTestNG -serport 16865 -protocol json -d C:\Users\pisal\Documents\GitHub\HomeProgramming\SeleniumProject\test-output C:\Users\pisal\AppData\Local\Temp\testng-eclipse-1763491756\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2016-05-26 17:45:20.683
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\pisal\.p2\pool\plugins\org.testng.eclipse_6.9.11.201604020423\lib\testng-remote.jar C:\Users\pisal\Documents\GitHub\HomeProgramming\SeleniumProject\bin C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\selenium-java-2.53.0.jar C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\testng-6.9.9.jar C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\jsoup-1.8.3.jar C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\commons-io-2.4.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 16965 -protocol json -d C:\Users\pisal\Documents\GitHub\HomeProgramming\SeleniumProject\test-output C:\Users\pisal\AppData\Local\Temp\testng-eclipse-739475719\testng-customsuite.xml
+java -ea -classpath C:\Users\pisal\.p2\pool\plugins\org.testng.eclipse_6.9.11.201604020423\lib\testng-remote.jar:C:\Users\pisal\Documents\GitHub\HomeProgramming\SeleniumProject\bin:C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\selenium-java-2.53.0.jar:C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\testng-6.9.9.jar:C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\jsoup-1.8.3.jar:C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\commons-io-2.4.jar org.testng.remote.RemoteTestNG -serport 16965 -protocol json -d C:\Users\pisal\Documents\GitHub\HomeProgramming\SeleniumProject\test-output C:\Users\pisal\AppData\Local\Temp\testng-eclipse-739475719\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2016-05-26 17:45:24.050
+!MESSAGE Stop the socket server as it's still pending on accepting the client
+
+!ENTRY org.testng.eclipse 1 0 2016-05-26 17:48:45.837
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\pisal\.p2\pool\plugins\org.testng.eclipse_6.9.11.201604020423\lib\testng-remote.jar C:\Users\pisal\Documents\GitHub\HomeProgramming\SeleniumProject\bin C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\selenium-java-2.53.0.jar C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\testng-6.9.9.jar C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\jsoup-1.8.3.jar C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\commons-io-2.4.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 17053 -protocol json -d C:\Users\pisal\Documents\GitHub\HomeProgramming\SeleniumProject\test-output C:\Users\pisal\AppData\Local\Temp\testng-eclipse-127030446\testng-customsuite.xml
+java -ea -classpath C:\Users\pisal\.p2\pool\plugins\org.testng.eclipse_6.9.11.201604020423\lib\testng-remote.jar:C:\Users\pisal\Documents\GitHub\HomeProgramming\SeleniumProject\bin:C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\selenium-java-2.53.0.jar:C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\testng-6.9.9.jar:C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\jsoup-1.8.3.jar:C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\commons-io-2.4.jar org.testng.remote.RemoteTestNG -serport 17053 -protocol json -d C:\Users\pisal\Documents\GitHub\HomeProgramming\SeleniumProject\test-output C:\Users\pisal\AppData\Local\Temp\testng-eclipse-127030446\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2016-05-26 17:48:54.144
+!MESSAGE Stop the socket server as it's still pending on accepting the client
+
+!ENTRY org.testng.eclipse 1 0 2016-05-26 17:49:13.610
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\pisal\.p2\pool\plugins\org.testng.eclipse_6.9.11.201604020423\lib\testng-remote.jar C:\Users\pisal\Documents\GitHub\HomeProgramming\SeleniumProject\bin C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\selenium-java-2.53.0.jar C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\testng-6.9.9.jar C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\jsoup-1.8.3.jar C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\commons-io-2.4.jar C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\jcommander-1.48.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 17063 -protocol json -d C:\Users\pisal\Documents\GitHub\HomeProgramming\SeleniumProject\test-output C:\Users\pisal\AppData\Local\Temp\testng-eclipse--294238951\testng-customsuite.xml
+java -ea -classpath C:\Users\pisal\.p2\pool\plugins\org.testng.eclipse_6.9.11.201604020423\lib\testng-remote.jar:C:\Users\pisal\Documents\GitHub\HomeProgramming\SeleniumProject\bin:C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\selenium-java-2.53.0.jar:C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\testng-6.9.9.jar:C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\jsoup-1.8.3.jar:C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\commons-io-2.4.jar:C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\jcommander-1.48.jar org.testng.remote.RemoteTestNG -serport 17063 -protocol json -d C:\Users\pisal\Documents\GitHub\HomeProgramming\SeleniumProject\test-output C:\Users\pisal\AppData\Local\Temp\testng-eclipse--294238951\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2016-05-26 17:51:28.903
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\pisal\.p2\pool\plugins\org.testng.eclipse_6.9.11.201604020423\lib\testng-remote.jar C:\Users\pisal\Documents\GitHub\HomeProgramming\SeleniumProject\bin C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\selenium-java-2.53.0.jar C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\testng-6.9.9.jar C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\jsoup-1.8.3.jar C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\commons-io-2.4.jar C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\jcommander-1.48.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 17135 -protocol json -d C:\Users\pisal\Documents\GitHub\HomeProgramming\SeleniumProject\test-output C:\Users\pisal\AppData\Local\Temp\testng-eclipse-2076193565\testng-customsuite.xml
+java -ea -classpath C:\Users\pisal\.p2\pool\plugins\org.testng.eclipse_6.9.11.201604020423\lib\testng-remote.jar:C:\Users\pisal\Documents\GitHub\HomeProgramming\SeleniumProject\bin:C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\selenium-java-2.53.0.jar:C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\testng-6.9.9.jar:C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\jsoup-1.8.3.jar:C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\commons-io-2.4.jar:C:\Users\pisal\Documents\GitHub\HomeProgramming\Utilities\lib\jcommander-1.48.jar org.testng.remote.RemoteTestNG -serport 17135 -protocol json -d C:\Users\pisal\Documents\GitHub\HomeProgramming\SeleniumProject\test-output C:\Users\pisal\AppData\Local\Temp\testng-eclipse-2076193565\testng-customsuite.xml
+!SESSION 2016-05-27 07:46:37.676 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.7.0_71
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-05-27 07:47:22.027
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\pisal'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2016-05-30 13:15:54.638 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.7.0_71
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-05-30 13:16:33.881
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\pisal'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2016-05-30 13:20:40.521
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:928)
+	at org.eclipse.jdt.internal.core.BinaryType.getJavadocContents(BinaryType.java:1039)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:533)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:60)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:582)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.ssl.Alerts.getSSLException(Alerts.java:192)
+	at sun.security.ssl.SSLSocketImpl.fatal(SSLSocketImpl.java:1884)
+	at sun.security.ssl.Handshaker.fatalSE(Handshaker.java:276)
+	at sun.security.ssl.Handshaker.fatalSE(Handshaker.java:270)
+	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1439)
+	at sun.security.ssl.ClientHandshaker.processMessage(ClientHandshaker.java:209)
+	at sun.security.ssl.Handshaker.processLoop(Handshaker.java:878)
+	at sun.security.ssl.Handshaker.process_record(Handshaker.java:814)
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:1016)
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(SSLSocketImpl.java:1312)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1339)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1323)
+	at sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:563)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:185)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1300)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:468)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:338)
+	at org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:848)
+	... 9 more
+Caused by: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:385)
+	at sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:292)
+	at sun.security.validator.Validator.validate(Validator.java:260)
+	at sun.security.ssl.X509TrustManagerImpl.validate(X509TrustManagerImpl.java:326)
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:231)
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:126)
+	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1421)
+	... 22 more
+Caused by: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.provider.certpath.SunCertPathBuilder.engineBuild(SunCertPathBuilder.java:196)
+	at java.security.cert.CertPathBuilder.build(CertPathBuilder.java:268)
+	at sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:380)
+	... 28 more
+Caused by: javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.ssl.Alerts.getSSLException(Alerts.java:192)
+	at sun.security.ssl.SSLSocketImpl.fatal(SSLSocketImpl.java:1884)
+	at sun.security.ssl.Handshaker.fatalSE(Handshaker.java:276)
+	at sun.security.ssl.Handshaker.fatalSE(Handshaker.java:270)
+	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1439)
+	at sun.security.ssl.ClientHandshaker.processMessage(ClientHandshaker.java:209)
+	at sun.security.ssl.Handshaker.processLoop(Handshaker.java:878)
+	at sun.security.ssl.Handshaker.process_record(Handshaker.java:814)
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:1016)
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(SSLSocketImpl.java:1312)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1339)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1323)
+	at sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:563)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:185)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1300)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:468)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:338)
+	at org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:848)
+	at org.eclipse.jdt.internal.core.BinaryType.getJavadocContents(BinaryType.java:1039)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:533)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:60)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:582)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:385)
+	at sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:292)
+	at sun.security.validator.Validator.validate(Validator.java:260)
+	at sun.security.ssl.X509TrustManagerImpl.validate(X509TrustManagerImpl.java:326)
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:231)
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:126)
+	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1421)
+	... 22 more
+Caused by: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.provider.certpath.SunCertPathBuilder.engineBuild(SunCertPathBuilder.java:196)
+	at java.security.cert.CertPathBuilder.build(CertPathBuilder.java:268)
+	at sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:380)
+	... 28 more
+!SUBENTRY 1 org.eclipse.jdt.core 4 985 2016-05-30 13:20:40.552
+!MESSAGE sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+!STACK 0
+javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.ssl.Alerts.getSSLException(Alerts.java:192)
+	at sun.security.ssl.SSLSocketImpl.fatal(SSLSocketImpl.java:1884)
+	at sun.security.ssl.Handshaker.fatalSE(Handshaker.java:276)
+	at sun.security.ssl.Handshaker.fatalSE(Handshaker.java:270)
+	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1439)
+	at sun.security.ssl.ClientHandshaker.processMessage(ClientHandshaker.java:209)
+	at sun.security.ssl.Handshaker.processLoop(Handshaker.java:878)
+	at sun.security.ssl.Handshaker.process_record(Handshaker.java:814)
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:1016)
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(SSLSocketImpl.java:1312)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1339)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1323)
+	at sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:563)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:185)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1300)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:468)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:338)
+	at org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:848)
+	at org.eclipse.jdt.internal.core.BinaryType.getJavadocContents(BinaryType.java:1039)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:533)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:60)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:582)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:385)
+	at sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:292)
+	at sun.security.validator.Validator.validate(Validator.java:260)
+	at sun.security.ssl.X509TrustManagerImpl.validate(X509TrustManagerImpl.java:326)
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:231)
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:126)
+	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1421)
+	... 22 more
+Caused by: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.provider.certpath.SunCertPathBuilder.engineBuild(SunCertPathBuilder.java:196)
+	at java.security.cert.CertPathBuilder.build(CertPathBuilder.java:268)
+	at sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:380)
+	... 28 more
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2016-05-30 13:20:40.997
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:928)
+	at org.eclipse.jdt.internal.core.BinaryType.getJavadocContents(BinaryType.java:1039)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:533)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:60)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:582)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.ssl.Alerts.getSSLException(Alerts.java:192)
+	at sun.security.ssl.SSLSocketImpl.fatal(SSLSocketImpl.java:1884)
+	at sun.security.ssl.Handshaker.fatalSE(Handshaker.java:276)
+	at sun.security.ssl.Handshaker.fatalSE(Handshaker.java:270)
+	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1439)
+	at sun.security.ssl.ClientHandshaker.processMessage(ClientHandshaker.java:209)
+	at sun.security.ssl.Handshaker.processLoop(Handshaker.java:878)
+	at sun.security.ssl.Handshaker.process_record(Handshaker.java:814)
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:1016)
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(SSLSocketImpl.java:1312)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1339)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1323)
+	at sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:563)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:185)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1300)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:468)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:338)
+	at org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:848)
+	... 9 more
+Caused by: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:385)
+	at sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:292)
+	at sun.security.validator.Validator.validate(Validator.java:260)
+	at sun.security.ssl.X509TrustManagerImpl.validate(X509TrustManagerImpl.java:326)
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:231)
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:126)
+	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1421)
+	... 22 more
+Caused by: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.provider.certpath.SunCertPathBuilder.engineBuild(SunCertPathBuilder.java:196)
+	at java.security.cert.CertPathBuilder.build(CertPathBuilder.java:268)
+	at sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:380)
+	... 28 more
+Caused by: javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.ssl.Alerts.getSSLException(Alerts.java:192)
+	at sun.security.ssl.SSLSocketImpl.fatal(SSLSocketImpl.java:1884)
+	at sun.security.ssl.Handshaker.fatalSE(Handshaker.java:276)
+	at sun.security.ssl.Handshaker.fatalSE(Handshaker.java:270)
+	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1439)
+	at sun.security.ssl.ClientHandshaker.processMessage(ClientHandshaker.java:209)
+	at sun.security.ssl.Handshaker.processLoop(Handshaker.java:878)
+	at sun.security.ssl.Handshaker.process_record(Handshaker.java:814)
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:1016)
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(SSLSocketImpl.java:1312)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1339)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1323)
+	at sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:563)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:185)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1300)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:468)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:338)
+	at org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:848)
+	at org.eclipse.jdt.internal.core.BinaryType.getJavadocContents(BinaryType.java:1039)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:533)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:60)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:582)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:385)
+	at sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:292)
+	at sun.security.validator.Validator.validate(Validator.java:260)
+	at sun.security.ssl.X509TrustManagerImpl.validate(X509TrustManagerImpl.java:326)
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:231)
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:126)
+	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1421)
+	... 22 more
+Caused by: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.provider.certpath.SunCertPathBuilder.engineBuild(SunCertPathBuilder.java:196)
+	at java.security.cert.CertPathBuilder.build(CertPathBuilder.java:268)
+	at sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:380)
+	... 28 more
+!SUBENTRY 1 org.eclipse.jdt.core 4 985 2016-05-30 13:20:40.998
+!MESSAGE sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+!STACK 0
+javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.ssl.Alerts.getSSLException(Alerts.java:192)
+	at sun.security.ssl.SSLSocketImpl.fatal(SSLSocketImpl.java:1884)
+	at sun.security.ssl.Handshaker.fatalSE(Handshaker.java:276)
+	at sun.security.ssl.Handshaker.fatalSE(Handshaker.java:270)
+	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1439)
+	at sun.security.ssl.ClientHandshaker.processMessage(ClientHandshaker.java:209)
+	at sun.security.ssl.Handshaker.processLoop(Handshaker.java:878)
+	at sun.security.ssl.Handshaker.process_record(Handshaker.java:814)
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:1016)
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(SSLSocketImpl.java:1312)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1339)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1323)
+	at sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:563)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:185)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1300)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:468)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:338)
+	at org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:848)
+	at org.eclipse.jdt.internal.core.BinaryType.getJavadocContents(BinaryType.java:1039)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:533)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:60)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:582)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:385)
+	at sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:292)
+	at sun.security.validator.Validator.validate(Validator.java:260)
+	at sun.security.ssl.X509TrustManagerImpl.validate(X509TrustManagerImpl.java:326)
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:231)
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:126)
+	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1421)
+	... 22 more
+Caused by: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.provider.certpath.SunCertPathBuilder.engineBuild(SunCertPathBuilder.java:196)
+	at java.security.cert.CertPathBuilder.build(CertPathBuilder.java:268)
+	at sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:380)
+	... 28 more
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2016-05-30 13:20:52.584
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:928)
+	at org.eclipse.jdt.internal.core.BinaryType.getJavadocContents(BinaryType.java:1039)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:533)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:60)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:582)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.ssl.Alerts.getSSLException(Alerts.java:192)
+	at sun.security.ssl.SSLSocketImpl.fatal(SSLSocketImpl.java:1884)
+	at sun.security.ssl.Handshaker.fatalSE(Handshaker.java:276)
+	at sun.security.ssl.Handshaker.fatalSE(Handshaker.java:270)
+	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1439)
+	at sun.security.ssl.ClientHandshaker.processMessage(ClientHandshaker.java:209)
+	at sun.security.ssl.Handshaker.processLoop(Handshaker.java:878)
+	at sun.security.ssl.Handshaker.process_record(Handshaker.java:814)
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:1016)
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(SSLSocketImpl.java:1312)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1339)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1323)
+	at sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:563)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:185)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1300)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:468)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:338)
+	at org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:848)
+	... 9 more
+Caused by: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:385)
+	at sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:292)
+	at sun.security.validator.Validator.validate(Validator.java:260)
+	at sun.security.ssl.X509TrustManagerImpl.validate(X509TrustManagerImpl.java:326)
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:231)
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:126)
+	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1421)
+	... 22 more
+Caused by: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.provider.certpath.SunCertPathBuilder.engineBuild(SunCertPathBuilder.java:196)
+	at java.security.cert.CertPathBuilder.build(CertPathBuilder.java:268)
+	at sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:380)
+	... 28 more
+Caused by: javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.ssl.Alerts.getSSLException(Alerts.java:192)
+	at sun.security.ssl.SSLSocketImpl.fatal(SSLSocketImpl.java:1884)
+	at sun.security.ssl.Handshaker.fatalSE(Handshaker.java:276)
+	at sun.security.ssl.Handshaker.fatalSE(Handshaker.java:270)
+	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1439)
+	at sun.security.ssl.ClientHandshaker.processMessage(ClientHandshaker.java:209)
+	at sun.security.ssl.Handshaker.processLoop(Handshaker.java:878)
+	at sun.security.ssl.Handshaker.process_record(Handshaker.java:814)
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:1016)
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(SSLSocketImpl.java:1312)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1339)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1323)
+	at sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:563)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:185)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1300)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:468)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:338)
+	at org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:848)
+	at org.eclipse.jdt.internal.core.BinaryType.getJavadocContents(BinaryType.java:1039)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:533)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:60)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:582)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:385)
+	at sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:292)
+	at sun.security.validator.Validator.validate(Validator.java:260)
+	at sun.security.ssl.X509TrustManagerImpl.validate(X509TrustManagerImpl.java:326)
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:231)
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:126)
+	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1421)
+	... 22 more
+Caused by: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.provider.certpath.SunCertPathBuilder.engineBuild(SunCertPathBuilder.java:196)
+	at java.security.cert.CertPathBuilder.build(CertPathBuilder.java:268)
+	at sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:380)
+	... 28 more
+!SUBENTRY 1 org.eclipse.jdt.core 4 985 2016-05-30 13:20:52.585
+!MESSAGE sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+!STACK 0
+javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.ssl.Alerts.getSSLException(Alerts.java:192)
+	at sun.security.ssl.SSLSocketImpl.fatal(SSLSocketImpl.java:1884)
+	at sun.security.ssl.Handshaker.fatalSE(Handshaker.java:276)
+	at sun.security.ssl.Handshaker.fatalSE(Handshaker.java:270)
+	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1439)
+	at sun.security.ssl.ClientHandshaker.processMessage(ClientHandshaker.java:209)
+	at sun.security.ssl.Handshaker.processLoop(Handshaker.java:878)
+	at sun.security.ssl.Handshaker.process_record(Handshaker.java:814)
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:1016)
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(SSLSocketImpl.java:1312)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1339)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1323)
+	at sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:563)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:185)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1300)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:468)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:338)
+	at org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:848)
+	at org.eclipse.jdt.internal.core.BinaryType.getJavadocContents(BinaryType.java:1039)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:533)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:60)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:582)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:385)
+	at sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:292)
+	at sun.security.validator.Validator.validate(Validator.java:260)
+	at sun.security.ssl.X509TrustManagerImpl.validate(X509TrustManagerImpl.java:326)
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:231)
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:126)
+	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1421)
+	... 22 more
+Caused by: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.provider.certpath.SunCertPathBuilder.engineBuild(SunCertPathBuilder.java:196)
+	at java.security.cert.CertPathBuilder.build(CertPathBuilder.java:268)
+	at sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:380)
+	... 28 more

@@ -16,7 +16,7 @@ import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
 public class webclientdemo {
-	public static void main(String[] args) {
+	/*public static void main(String[] args) {
 		final WebClient webClient = new WebClient();
 		HtmlPage page1 = webClient.getPage(URLEvent + eventFBId);
 		final HtmlForm form = page1.getForms().get(0);
@@ -45,5 +45,5 @@ public class webclientdemo {
 				.data("pass", password).cookies(cookies).get();
 
 		System.out.println(doc);
-	}
+	}*/
 }
