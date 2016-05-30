@@ -37,17 +37,17 @@ public class TestNG {
 			System.out.println("-------------------------Open Browser----------------------");
 			/*System.setProperty("webdriver.ie.driver",
 					"D:\\Documents\\Documents\\Selenium Webdriver with Java Language\\lib\\IEDriverServer.exe");*/
-			/*ProfilesIni prof=new ProfilesIni();
+			ProfilesIni prof=new ProfilesIni();
 			FirefoxProfile profile=prof.getProfile("default");
-			web=new FirefoxDriver(profile);*/
+			web=new FirefoxDriver(profile);
 			web = new FirefoxDriver();
-			web.get("http://www.google.com.kh");
+			//web.get("http://www.google.com.kh");
 		} catch (Exception e) {
 			// TODO: handle exception
 			e.printStackTrace();
 		}
 	}
-	/*@BeforeClass
+	@BeforeClass
 	public void openTab(){
 		try {
 			System.out.println("************************ New Tab *************************");
@@ -65,7 +65,7 @@ public class TestNG {
 	public void navigateBack(){
 		System.out.println("------------------ URL Navigate Back --------------------");
 	}
-	@Test
+	/*@Test
 	public void tabOne(){
 		try {
 			web.get("http://www.google.com.kh");
@@ -74,7 +74,7 @@ public class TestNG {
 			// TODO: handle exception
 		}
 	}*/
-	/*@Test
+	@Test
 	public void tabTwo(){
 		String title=null;
 		String Source=null;
@@ -107,7 +107,7 @@ public class TestNG {
 			} catch (IOException ex) {
 			  // report
 			} finally {
-			   try {writer.close();} catch (Exception ex) {ignore}
+			   try {writer.close();} catch (Exception ex) {}
 			}
 			
 			//System.err.println(web.getPageSource());
@@ -115,8 +115,8 @@ public class TestNG {
 		} catch (Exception e) {
 			// TODO: handle exception
 		}
-	}*/
-	/*@AfterClass
+	}
+	@AfterClass
 	public void closeTab(){
 		try {
 			System.out.println("************************ Close Tab *************************");
@@ -133,6 +133,6 @@ public class TestNG {
 			web =null;
 			System.out.println("************************ Quit Browser *************************");
 		}
-	}*/
+	}
 
 }
