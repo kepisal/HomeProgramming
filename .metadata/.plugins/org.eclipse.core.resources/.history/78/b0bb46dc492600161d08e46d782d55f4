@@ -1,0 +1,20 @@
+package testhtml;
+
+import java.io.IOException;
+import java.net.MalformedURLException;
+
+import javax.xml.ws.WebServiceClient;
+
+import com.gargoylesoftware.htmlunit.FailingHttpStatusCodeException;
+import com.gargoylesoftware.htmlunit.WebClient;
+import com.gargoylesoftware.htmlunit.html.HtmlPage;
+import com.gargoylesoftware.htmlunit.javascript.host.html.HTMLElement;
+
+public class htmlunittest {
+	public static void main(String[] args) throws FailingHttpStatusCodeException, MalformedURLException, IOException {
+		WebClient webclient=new WebClient();
+		HtmlPage pages= webclient.getPage("https://jsoup.org/apidocs/org/jsoup/Connection.html");
+		String pagesource = pages.asText();
+		System.out.println(pagesource);
+	}
+}

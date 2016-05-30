@@ -1,0 +1,18 @@
+package testhtml;
+
+import java.io.IOException;
+import java.net.MalformedURLException;
+
+import javax.xml.ws.WebServiceClient;
+
+import com.gargoylesoftware.htmlunit.FailingHttpStatusCodeException;
+import com.gargoylesoftware.htmlunit.WebClient;
+import com.gargoylesoftware.htmlunit.html.HtmlPage;
+
+public class htmlunittest {
+	public static void main(String[] args) throws FailingHttpStatusCodeException, MalformedURLException, IOException {
+		WebClient webclient=new WebClient();
+		HtmlPage pages= webclient.getPage("https://www.khmer24.com/");
+		System.out.println(pages.getDocumentURI());
+	}
+}
