@@ -79,7 +79,7 @@ public class TestNG {
 		String title=null;
 		String Source=null;
 		try {
-			web.get("https://www.facebook.com/kampucheaonlineshop/timeline");
+			web.get("http://shop168.com.kh/");
 			title=web.getTitle();
 			System.out.println(title);
 			System.err.println(web.getCurrentUrl());
@@ -87,7 +87,7 @@ public class TestNG {
 			File scrFile=((TakesScreenshot)web).getScreenshotAs(OutputType.FILE);
 			try {
 				//FileUtils.copyFile(scrFile, "d://screenshot.png");
-				FileUtils.copyFile(scrFile, new File("d://"+title+".png"));
+				FileUtils.copyFile(scrFile, new File("d://Hometest.png"));
 			} catch (Exception e) {
 				// TODO: handle exception
 				e.printStackTrace();
